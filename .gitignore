@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data artifacts (regenerate with run_macro_pipeline.py)
+data/
+
+# ML outputs
+ml/benchmarks/*.json
+
+# IDE
+.idea/
+.vscode/
